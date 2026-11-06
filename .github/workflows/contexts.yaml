@@ -4,7 +4,7 @@ jobs:
   print:
     runs-on: ubuntu-latest
     steps:
-      - run: scho "${{ github.actor }}"
+      - run: echo "${{ github.actor }}"
       - name: GitHub Constext
         run: |
           echo "Repository: ${{ github.repository }}"
